@@ -25,8 +25,9 @@ ActiveRecord::Schema.define(version: 20170428052754) do
     t.integer  "age"
     t.string   "address"
     t.integer  "gym_badges"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "num_of_pokemon"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
 end
