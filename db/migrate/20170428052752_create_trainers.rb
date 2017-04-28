@@ -5,6 +5,7 @@ class CreateTrainers < ActiveRecord::Migration[5.0]
       t.integer :age
       t.string :address
       t.integer :gym_badges
+      t.integer :num_of_pokemon
 
       t.timestamps
     end
